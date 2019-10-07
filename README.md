@@ -5,6 +5,17 @@
 npm install
 ```
 
+## Environment setup
+
+make file env.development.local, then visit omdbapi website to get key. 
+
+```
+VUE_APP_NAME=Vuemovie 
+VUE_APP_BACKEND_URL=https://www.omdbapi.com/
+VUE_APP_API_URL=https://www.omdbapi.com/
+VUE_APP_SECRET=Your_key
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
