@@ -5,7 +5,7 @@
                 <v-card
                     class="mx-auto mb-5"
                     elevation="10" >
-                    <v-img :src="item.Poster" :lazy-src="item.Poster"  aspect-ratio="1"></v-img>
+                    <v-img :src="item.Poster"  aspect-ratio="1"></v-img>
 
                     <div class="pa-2">
                         <v-card-title>
