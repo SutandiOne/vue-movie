@@ -1,7 +1,8 @@
 <template>
-        <v-container class="mt-5">
-            <v-text-field class="display-1" shaped v-model="search" placeholder="Find title movie" clearable solo :loading="loading" @input="doSearch"></v-text-field>
-        </v-container> 
+
+    <v-container class="mt-5">
+        <v-text-field class="display-1" shaped v-model="search" placeholder="Find title movie" clearable solo :loading="loading" @input="doSearch"></v-text-field>
+    </v-container> 
 
 </template>
 

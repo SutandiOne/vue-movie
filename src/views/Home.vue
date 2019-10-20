@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <v-container>
     <Search />
     <Items />
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -11,8 +11,8 @@ import Items from '@/components/Items.vue';
 
 export default {
   components: {
-    Items,
     Search,
+    Items 
   },
 };
 </script>
