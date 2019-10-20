@@ -10,7 +10,11 @@
     </v-app-bar>
 
     <v-content>
-      <router-view/>
+      <v-container fluid>
+
+        <!-- If using vue-router -->
+        <router-view></router-view>
+      </v-container>
     </v-content>
 
     <v-footer

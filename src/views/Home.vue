@@ -1,8 +1,8 @@
 <template>
-  <v-container>
+  <v-card flat color="transparent">
     <Search />
     <Items />
-  </v-container>
+  </v-card>
 </template>
 
 <script>
