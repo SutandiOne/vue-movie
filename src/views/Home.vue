@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Search Movies with Title</h1>
     <Search />
     <Items />
   </div>
