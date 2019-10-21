@@ -1,8 +1,9 @@
 <template>
-  <v-card flat color="transparent">
+  <div>
+    <h1>Search Movies with Title</h1>
     <Search />
     <Items />
-  </v-card>
+  </div>
 </template>
 
 <script>
